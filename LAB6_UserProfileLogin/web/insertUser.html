@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!<!-- NAME: IZZUL MUAZZAM
+       MATRIX NO.:S74823
+       DATE: 13 MAY 2026-->
+<html>
+<head>
+    <title>User Registration</title>
+</head>
+<body>
+    <h2>Register New User</h2>
+    <form action="processUser.jsp" method="POST">
+        <table>
+            <tr>
+                <td>Username:</td>
+                <td><input type="text" name="username" maxlength="15" required></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password" maxlength="10" required></td>
+            </tr>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="firstname" maxlength="50" required></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" name="lastname" maxlength="50" required></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Clear">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <br>
+    <a href="login.jsp">Already have an account? Login here.</a>
+</body>
+</html>
